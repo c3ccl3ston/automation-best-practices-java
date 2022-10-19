@@ -79,19 +79,4 @@ public class E2ESolutionTests extends SauceBaseTest {
         new CheckoutOverviewPage(driver).finish();
         assertTrue(new CheckoutCompletePage(driver).isDisplayed());
     }
-
-    @Test()
-    public void sauceDemoAccessibility() {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.visit();
-        Results results = session.getAccessibilityResults();
-        assertEquals(3, results.getViolations().size());
-    }
-
-    @Test()
-    public void computechAccessibility() {
-        driver.navigate().to("http://abcdcomputech.dequecloud.com");
-        Results results = session.getAccessibilityResults();
-        assertEquals(7, results.getViolations().size());
-    }
 }
