@@ -172,7 +172,7 @@ center (i.e. `EU_CENTRAL`), please update the [E2ETests](workshop/src/test/java/
 
 ## Stay to the end and win a prize!
 
-Stay to the end and 1 lucky people can win a snazzy Backpack!
+Stay to the end and 1 lucky person can win a snazzy Backpack!
 
 <img src="./graphics/large_Sauce_Bkpk_2021.png" alt="me" width="200" />
 
